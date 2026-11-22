@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourMate - Book a Guide</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Book a Tour Guide</h2>
+        <form action="booking.php">
+            <label>Tourist Name:</label>
+            <input type="text" name="tourist_name" required>
+
+            <label>Guide Name:</label>
+            <input type="text" name="guide_name" required>
+
+            <label>Destination:</label>
+            <input type="text" name="destination">
+
+            <label>Booking Date:</label>
+            <input type="data" name="booking_date" required>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+        <br>
+        <a href="booking_list.php"> View all Booking(Crud Dashboard) </a>
+    </div>
+</body>
+</html>
